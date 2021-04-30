@@ -287,7 +287,7 @@
     font-weight: 900;
     font-size: 20px;
     text-align: center;
-    padding: 10px;
+    padding: 18px 0;
 }
 
 .speakers {
@@ -371,14 +371,25 @@
 
 /* schedule part  */
 
+.schedule {
+    margin-top: -35px;
+    z-index: 5;
+}
+
+.schedule-section {
+    width: 90%;
+    margin: 0 auto;
+}
+
 .schedule-icon {
-    width: 20%;
+    width: 50px;
     padding-top: 50px;
     height: auto;
-    margin: 0 40%;
+    margin: 0 42%;
 }
 
 .schedule-subtitle {
+    margin: 0 auto;
     text-align: center;
     font-size: 12px;
 }
@@ -434,7 +445,7 @@
     height: 40px;
     border-radius: 22px;
     margin: 0 auto;
-    width: 80%;
+    width: 90%;
 }
 
 .hall ul {
@@ -482,9 +493,9 @@
 }
 
 .middle-text {
-    padding-left: 15px;
-    padding: 20px 0;
-    width: 70%;
+    padding: 0px 5px 20px 25px;
+    width: 60%;
+    /* margin-left: 20px; */
     float: left;
     text-align: left;
     font-size: 12px;
@@ -570,7 +581,7 @@
     padding-top: 15%;
     font-family: 'Playfair Display', serif;
     color: #fff;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .buy-ticket-btn {
@@ -851,6 +862,10 @@
     padding: 5px 1px;
 }
 
+.social-icon ul li i {
+    font-size: 12px;
+}
+
 .social-icon ul li i:hover {
     cursor: pointer;
     color: #F0474A;
@@ -876,4 +891,9 @@
 
 .footer-txt .name {
     text-decoration: underline;
+}
+
+.footer-txt .name:hover {
+    cursor: pointer;
+    color: #F0474A;
 }
