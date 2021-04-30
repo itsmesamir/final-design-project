@@ -52,10 +52,13 @@
         list-style: none;
         padding: 10px 5px;
     }
+    .total-engagement {
+        min-height: 150px;
+    }
     .total-engagement ul {
         width: 80%;
         margin: 0 auto;
-        padding: 10% 0;
+        padding: 8% 0;
         list-style: none;
     }
     .total-engagement ul li {
@@ -129,7 +132,7 @@
     .total-engagement ul {
         width: 80%;
         margin: 0 auto;
-        padding: 10% 0;
+        padding: 7% 0;
         list-style: none;
     }
     .total-engagement ul li {
@@ -215,6 +218,35 @@
         top: 15%;
         left: -10%;
     }
+    .total-engagement {
+        min-height: 150px;
+    }
+    .social-icon ul li i {
+        font-size: 14px;
+    }
+    .address,
+    .social-media-icon {
+        padding: 15px 0 15px 25px;
+    }
+    .platinum-sponsors ul li,
+    .media-sponsors ul li {
+        text-decoration: none;
+        display: inline-block;
+        padding: 5px 0px;
+    }
+    .map-section {
+        padding-top: 50px;
+    }
+    .sponsors-section {
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .platinum-sponsors ul li img,
+    .media-sponsors ul li img {
+        height: 60%;
+        width: 60%;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 990px) {
@@ -277,6 +309,9 @@
     }
     .total-engagement ul {
         width: 70%;
+        margin: 0 auto;
+        padding: 5% 0;
+        list-style: none;
     }
     .total-engagement ul li {
         box-sizing: border-box;
@@ -396,6 +431,32 @@
     .btn-part {
         margin-top: 5%;
     }
+    .social-icon ul li i {
+        font-size: 14px;
+    }
+    .address,
+    .social-media-icon {
+        padding: 15px 0 15px 25px;
+    }
+    .platinum-sponsors ul li,
+    .media-sponsors ul li {
+        text-decoration: none;
+        display: inline-block;
+        padding: 5px 0px;
+    }
+    .map-section {
+        padding-top: 50px;
+    }
+    .sponsors-section {
+        width: 85%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .platinum-sponsors ul li img,
+    .media-sponsors ul li img {
+        height: 60%;
+        width: 60%;
+    }
 }
 
 @media screen and (min-width: 991px) and (max-width: 1199px) {
@@ -498,7 +559,7 @@
     .top-title {
         font-family: 'Playfair Display', serif;
         font-size: 24px;
-        padding: 18px 0;
+        padding: 10px 0;
     }
     /* speakers */
     .speakers {
@@ -583,6 +644,32 @@
     }
     .btn-part {
         margin-top: 5%;
+    }
+    .social-icon ul li i {
+        font-size: 14px;
+    }
+    .address,
+    .social-media-icon {
+        padding: 15px 0 15px 25px;
+    }
+    .platinum-sponsors ul li,
+    .media-sponsors ul li {
+        text-decoration: none;
+        display: inline-block;
+        padding: 5px 10px;
+    }
+    .map-section {
+        padding-top: 50px;
+    }
+    .sponsors-section {
+        width: 88%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .platinum-sponsors ul li img,
+    .media-sponsors ul li img {
+        height: 70%;
+        width: 70%;
     }
 }
 
@@ -675,7 +762,7 @@
         letter-spacing: 1px;
     }
     .total-engagement {
-        min-height: 320px;
+        min-height: 200px;
     }
     .total-engagement ul {
         width: 50%;
@@ -690,6 +777,12 @@
     .engagement-name {
         font-size: 15px;
         font-weight: 300px;
+    }
+    .total-engagement ul {
+        width: 80%;
+        margin: 0 auto;
+        padding: 2% 0;
+        list-style: none;
     }
     .total-engagement ul li p {
         padding-bottom: 5px;
@@ -842,11 +935,11 @@
         margin-top: 5%;
     }
     .testimonials-list {
-        width: 90%;
+        width: 80%;
         margin: 0 auto;
     }
     .testimonials-list ul {
-        width: 90%;
+        width: 80%;
         text-align: center;
         margin: 3%;
     }
@@ -870,5 +963,36 @@
     }
     .btn-part {
         margin-top: 5%;
+    }
+    .email-btn a {
+        padding: 10px 25px;
+        border: 1.8px solid #fff;
+        font-size: 15px;
+    }
+    .social-icon ul li i {
+        font-size: 14px;
+    }
+    .address,
+    .social-media-icon {
+        padding: 15px 0 15px 25px;
+    }
+    .platinum-sponsors ul li,
+    .media-sponsors ul li {
+        text-decoration: none;
+        display: inline-block;
+        padding: 5px 20px;
+    }
+    .map-section {
+        padding-top: 50px;
+    }
+    .sponsors-section {
+        width: 85%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .platinum-sponsors ul li img,
+    .media-sponsors ul li img {
+        height: 80%;
+        width: 80%;
     }
 }
