@@ -293,6 +293,8 @@
 .speakers {
     width: 80%;
     margin-top: -15%;
+    margin-bottom: -15%;
+    position: relative;
     background: #fff;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-left: auto;
@@ -319,7 +321,6 @@
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    position: relative;
 }
 
 .overlay {
@@ -356,4 +357,145 @@
     color: #fff;
     z-index: 2;
     font-weight: 300;
+}
+
+
+/* second gradient bg  */
+
+.second-gradient-bg {
+    height: 170px;
+    width: 100%;
+    background: linear-gradient(to right, #FDAF19, #F0474A);
+}
+
+
+/* schedule part  */
+
+.schedule-icon {
+    width: 20%;
+    height: auto;
+    margin: 0 40%;
+}
+
+.schedule-subtitle {
+    text-align: center;
+    font-size: 12px;
+}
+
+.schedule-section ul {
+    height: auto;
+    list-style: none;
+    margin-top: 18px;
+    text-align: center;
+}
+
+.schedule-section ul li {
+    display: inline-block;
+    padding: 4px 1px;
+}
+
+.schedule-section ul li a {
+    padding-right: 5px;
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
+
+.schedule-section ul li a:hover {
+    color: #F0474A;
+}
+
+.day {
+    padding: 0 2px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.date {
+    font-size: 11px;
+    font-weight: 300px;
+}
+
+.bar {
+    width: 1px;
+    height: 50px;
+    margin-bottom: 15px;
+    background: #e9b7b1;
+}
+
+.schedule-section .active {
+    color: #F0474A;
+}
+
+.hall {
+    text-align: center;
+    background: #e9b7b1;
+    height: 40px;
+    border-radius: 22px;
+    /* width: 80%; */
+}
+
+.hall ul {
+    list-style: none;
+}
+
+.hall ul li {
+    display: inline-block;
+}
+
+.hall ul li a {
+    line-height: 30px;
+    font-size: 12px;
+    color: #333;
+}
+
+#active-hall {
+    color: black;
+    font-weight: bolder;
+}
+
+
+/* schedule lists */
+
+.schedule-lists ul {
+    list-style: none;
+}
+
+.schedule-lists ul li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.profile-image {
+    width: 20%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.schedule-lists ul li img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    /* display: inline-block; */
+}
+
+.middle-text {
+    padding-left: 15px;
+    width: 70%;
+    float: left;
+    text-align: left;
+    font-size: 12px;
+    box-sizing: border-box;
+}
+
+.expand-icon {
+    float: left;
+    width: 10%;
+    box-sizing: border-box;
+}
+
+.event-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 15px;
+    font-weight: bold;
 }

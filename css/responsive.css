@@ -22,7 +22,7 @@
     }
 }
 
-@media screen and (min-width: 479px) and (max-width: 767px) {
+@media screen and (min-width: 479px) and (max-width: 679px) {
     .logo img {
         height: 200%;
         width: 200%;
@@ -68,6 +68,111 @@
     }
     .engagement-name {
         font-size: 11px;
+    }
+    /* speakers */
+    .speakers {
+        margin-top: -7.5%;
+        margin-bottom: -7.5%;
+    }
+}
+
+@media screen and (min-width: 680px) and (max-width: 767px) {
+    .logo img {
+        height: 200%;
+        width: 200%;
+    }
+    .menu {
+        display: none;
+    }
+    .transparent-btn>a {
+        display: none;
+    }
+    .hamburger-icon img {
+        margin-top: 1%;
+    }
+    .intro-content {
+        width: 65%;
+        padding-top: 40px;
+    }
+    .intro-title {
+        font-size: 26px;
+    }
+    .intro-subtitle {
+        font-size: 14px;
+    }
+    .btn-part li,
+    .attend-btn li {
+        display: inline-block;
+        list-style: none;
+        padding: 10px 5px;
+    }
+    .total-engagement ul {
+        width: 80%;
+        margin: 0 auto;
+        padding: 10% 0;
+        list-style: none;
+    }
+    .total-engagement ul li {
+        box-sizing: border-box;
+        padding: 8px 1px;
+    }
+    .engagement-number {
+        font-size: 22px;
+        font-weight: bolder;
+    }
+    .engagement-name {
+        font-size: 11px;
+    }
+    /* speakers */
+    .speakers {
+        margin-top: -7.5%;
+        margin-bottom: -7.5%;
+    }
+    .overlay {
+        height: auto;
+        width: 100%;
+        position: relative;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .speakers ul {
+        text-align: center;
+    }
+    .speakers ul li {
+        display: inline-block;
+        padding: 1px;
+    }
+    .speakers ul li img {
+        background-repeat: no-repeat;
+        width: 246.29px;
+        height: 313.28px;
+        position: relative;
+    }
+    .overlay::before {
+        content: "";
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+        margin: auto;
+        position: absolute;
+        left: 0;
+    }
+    .top-title {
+        font-weight: bold;
+        font-size: 25px;
+        padding: 20px;
+    }
+    .speaker-name {
+        position: absolute;
+        font-size: 18px;
+        text-align: left;
+        z-index: 2;
+        transform: translate(-115px, -65px);
+    }
+    .speaker-title {
+        font-size: 11px;
+        z-index: 2;
+        font-weight: 200;
     }
 }
 
@@ -144,6 +249,57 @@
     }
     .engagement-name {
         font-size: 12px;
+    }
+    /* speakers */
+    .speakers {
+        margin-top: -5.5%;
+        margin-bottom: -5.5%;
+    }
+    .overlay {
+        height: auto;
+        width: 100%;
+        position: relative;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .speakers ul {
+        text-align: center;
+    }
+    .speakers ul li {
+        display: inline-block;
+        padding: 10px;
+    }
+    .speakers ul li img {
+        background-repeat: no-repeat;
+        width: 266.29px;
+        height: 343.28px;
+        position: relative;
+    }
+    .overlay::before {
+        content: "";
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+        margin: auto;
+        position: absolute;
+        left: 0;
+    }
+    .top-title {
+        font-weight: bold;
+        font-size: 25px;
+        padding: 20px;
+    }
+    .speaker-name {
+        position: absolute;
+        font-size: 18px;
+        text-align: left;
+        z-index: 2;
+        transform: translate(-115px, -55px);
+    }
+    .speaker-title {
+        font-size: 11px;
+        z-index: 2;
+        font-weight: 200;
     }
 }
 
@@ -227,6 +383,57 @@
         width: 10px;
         height: 2px;
         margin-bottom: 15px;
+    }
+    /* speakers */
+    .speakers {
+        margin-top: -5.5%;
+        margin-bottom: -5.5%;
+    }
+    .overlay {
+        height: auto;
+        width: 100%;
+        position: relative;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .speakers ul {
+        text-align: center;
+    }
+    .speakers ul li {
+        display: inline-block;
+        padding: 10px;
+    }
+    .speakers ul li img {
+        background-repeat: no-repeat;
+        width: 266.29px;
+        height: 343.28px;
+        position: relative;
+    }
+    .overlay::before {
+        content: "";
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+        margin: auto;
+        position: absolute;
+        left: 0;
+    }
+    .top-title {
+        font-weight: bold;
+        font-size: 25px;
+        padding: 20px;
+    }
+    .speaker-name {
+        position: absolute;
+        font-size: 18px;
+        text-align: left;
+        z-index: 2;
+        transform: translate(-115px, -55px);
+    }
+    .speaker-title {
+        font-size: 11px;
+        z-index: 2;
+        font-weight: 200;
     }
 }
 
@@ -319,7 +526,7 @@
         letter-spacing: 1px;
     }
     .total-engagement {
-        min-height: 250px;
+        min-height: 320px;
     }
     .total-engagement ul {
         width: 50%;
@@ -346,7 +553,8 @@
     }
     /* speakers */
     .speakers {
-        margin-top: -5%;
+        margin-top: -5.5%;
+        margin-bottom: -5.5%;
     }
     .overlay {
         height: auto;
@@ -364,8 +572,8 @@
     }
     .speakers ul li img {
         background-repeat: no-repeat;
-        width: 266.29px;
-        height: 343.28px;
+        width: 276.29px;
+        height: 348.28px;
         position: relative;
     }
     .overlay::before {
