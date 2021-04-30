@@ -1,0 +1,359 @@
+.top-intro-page {
+    background: url(../images/top-bg-black.png) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    min-height: 525px;
+}
+
+.nav {
+    padding-top: 5%;
+}
+
+.logo {
+    float: left;
+    width: 10%;
+    box-sizing: border-box;
+}
+
+.menu {
+    /* display: none; */
+    float: left;
+    width: 70%;
+    box-sizing: border-box;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 1.8% 0 0 15%;
+}
+
+.menu ul li {
+    display: inline;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+.menu ul li a:hover {
+    color: #FDAF19;
+}
+
+.transparent-btn {
+    margin-top: 1%;
+    float: left;
+    width: 20%;
+}
+
+.transparent-btn>a:hover {
+    background: #FDAF19;
+}
+
+.transparent-btn>a {
+    /* display: none; */
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 8px 25px;
+    border: 2px solid white;
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 25px;
+    box-sizing: border-box;
+}
+
+.hamburger-icon img {
+    /* display: none; */
+    margin-top: 2%;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    right: 15%;
+    background: #F0474A;
+    padding: 6px 8px;
+    border-radius: 6px;
+    float: right;
+}
+
+.hamburger-icon img:hover {
+    background: #FDAF19;
+}
+
+
+/* intro content */
+
+.intro-content {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 50px;
+    color: #fff;
+    text-align: center;
+}
+
+.intro-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+}
+
+.intro-subtitle {
+    font-size: 12px;
+}
+
+.countdown {
+    background: #c74a3c;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+
+.countdown ul {
+    list-style: none;
+}
+
+.countdown ul li {
+    display: inline-block;
+    padding: 8px 1px;
+}
+
+.time-number {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.date-text {
+    font-size: 11px;
+    font-weight: 300px;
+}
+
+.countdown ul li p {
+    padding-bottom: 5px;
+    line-height: 10px;
+}
+
+.dash {
+    width: 10px;
+    height: 2px;
+    margin-bottom: 14px;
+    background: #e9b7b1;
+}
+
+
+/* button part  */
+
+.btn-part {
+    margin-top: 15%;
+}
+
+.btn-part li {
+    list-style: none;
+    padding: 10px 0;
+}
+
+.btn-part a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 8px 15px;
+    border: 2px solid white;
+    font-weight: 700;
+    font-size: 11px;
+    border-radius: 25px;
+}
+
+#yellow-bg {
+    border: none;
+    color: #000;
+    font-size: 11px;
+    background-color: #FDAF19;
+}
+
+.btn-part a:hover {
+    background-color: #F0474A;
+}
+
+.play i {
+    margin-top: 55px;
+    text-align: center;
+    font-size: 10px;
+}
+
+.play-text {
+    margin: 0 auto;
+    width: 5%;
+    text-align: center;
+    font-size: 10px;
+    margin-bottom: 40px;
+}
+
+.play i:hover,
+.play-text:hover {
+    color: #F0474A;
+    cursor: pointer;
+}
+
+
+/* design description */
+
+.design-description {
+    color: #000;
+    margin: 45px auto;
+}
+
+.design-desc-title {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.design-description p {
+    margin-top: 15px;
+    font-size: 11px;
+}
+
+.attend-btn {
+    margin: 12% 0;
+}
+
+.attend-btn li {
+    list-style: none;
+    padding: 10px 0;
+}
+
+.attend-btn a {
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+    padding: 6px 15px;
+    border: 1.8px solid #c74a3c;
+    font-weight: 700;
+    font-size: 11px;
+    border-radius: 25px;
+}
+
+.attend-btn a:hover {
+    background-color: #F0474A;
+    color: white;
+    border: none;
+}
+
+.total-engagement {
+    min-height: 200px;
+    color: #fff;
+    text-align: center;
+    background: linear-gradient(to right, #FDAF19, #F0474A);
+}
+
+.total-engagement ul {
+    width: 95%;
+    margin: 0 auto;
+    padding: 10% 0;
+    list-style: none;
+}
+
+.total-engagement ul li {
+    display: inline-block;
+    padding: 8px 0px;
+}
+
+.engagement-number {
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.engagement-name {
+    font-size: 10px;
+    font-weight: 300px;
+}
+
+.total-engagement ul li p {
+    padding-bottom: 5px;
+    line-height: 10px;
+}
+
+
+/* confirmed speakers */
+
+.speakers {
+    padding: 50px 20px;
+    box-sizing: border-box;
+}
+
+.top-title {
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+.speakers {
+    width: 80%;
+    margin-top: -15%;
+    background: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.speakers ul {
+    list-style: none;
+}
+
+.speakers ul li {
+    display: block;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.speakers ul li img {
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    position: relative;
+}
+
+.overlay {
+    position: relative;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.overlay::before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    margin: auto;
+    position: absolute;
+    background: url(../images/overlay-bg.png) no-repeat;
+    background-size: 100% 100%;
+    z-index: 1;
+}
+
+.speaker-name {
+    position: absolute;
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: bold;
+    z-index: 2;
+    transform: translate(15px, -55px);
+}
+
+.speaker-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    color: #fff;
+    z-index: 2;
+    font-weight: 300;
+}
